@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"my103c8t6\startup_stm32f103xb.o"
+"my103c8t6\main.o"
+"my103c8t6\stm32f1xx_it.o"
+"my103c8t6\stm32f1xx_hal_msp.o"
+"my103c8t6\stm32f1xx_hal_gpio_ex.o"
+"my103c8t6\stm32f1xx_hal_tim.o"
+"my103c8t6\stm32f1xx_hal_tim_ex.o"
+"my103c8t6\stm32f1xx_hal_uart.o"
+"my103c8t6\stm32f1xx_hal.o"
+"my103c8t6\stm32f1xx_hal_rcc.o"
+"my103c8t6\stm32f1xx_hal_rcc_ex.o"
+"my103c8t6\stm32f1xx_hal_gpio.o"
+"my103c8t6\stm32f1xx_hal_dma.o"
+"my103c8t6\stm32f1xx_hal_cortex.o"
+"my103c8t6\stm32f1xx_hal_pwr.o"
+"my103c8t6\stm32f1xx_hal_flash.o"
+"my103c8t6\stm32f1xx_hal_flash_ex.o"
+"my103c8t6\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "My103C8T6\My103C8T6.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "My103C8T6.map" -o My103C8T6\My103C8T6.axf
